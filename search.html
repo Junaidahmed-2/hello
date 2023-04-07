@@ -1,49 +1,41 @@
 <!DOCTYPE>
 <html lang="en">
     <head>
-        <title>Google search!</title>
-        <style>
-            #center{
-                text-align: center;
-            }
-            #nav,.nav{
-                text-align: right;
-                color: black;
-                font-size: large;
-                text-decoration: none;
-                padding-bottom: 2px;
-                margin-right: 10px;
-                margin-top: 10px;
-                vertical-align: middle;
-            }
-        </style>
+        <title>Google Clone</title>
+        <link href="stylesheet.css" rel="stylesheet">
     </head>
     <body>
         <div id="nav">
-            <p>
-                <a class="nav" href="https://mail.google.com/mail">Gmail</a>
-                <a class="nav" href="https://www.google.com.pk/imghp?hl=en&authuser=0&ogbl">Images</a>
-                <a class="nav" href="some link" > <img src="image.jpg" alt="profile picture" style="border-radius: 50%; height: 40px; width: 40px;"></a>
-            </p>
-            
+            <a href="https://mail.google.com/mail">Gmail</a>
+            <a href="https://www.google.com.pk/imghp?hl=en&authuser=0&ogbl">Image</a>
+            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"> <img id="profilephoto" src="image.jpg" alt="Profile photo"> </a>
         </div>
         <div id="center">
             <p>
-                <img src="C:\Users\Junaid Ahmed\Desktop\google.png" alt="google image" style="height: 110px; width: auto; margin-top: 80px;">
+                <img id="logo" src="google.png" alt="googlelogo">
             </p>
             <p>
-                <input name="search" type="text" style="height: 40px; width: 40%; padding: 10px; outline: 0; border-radius: 50px; border-color: #eeee;" >
+                <input id="search-bar" type="text">
             </p>
             <p>
-                <input type="button" name="googlesearch" value="Google Search" style=" height: 30px; border-radius: 10px; margin: 10px; cursor: pointer;">
-                <input type="button" value="Feeling lucky?" style="height: 30px; border-radius: 10px; margin: 10px; cursor: pointer;">
+                <input class="buttons" type="button" value="Google Search">
+                <input class="buttons" type="button" value="I am feeling Lucky!">
             </p>
-            <p >
-                Google offered in:
-                <a style="margin-right: 10px;" href="some link">Urdu</a>
-                <a style="margin-right: 10px;" href="some link">German</a>
+            <p>
+                Google is offered in:
+                    <a class="links" href="some link">X</a>
+                    <a class="links"href="some link">Y</a>
             </p>
         </div>
-        
+        <div id="footer">
+            <p>
+                <h1>My content:</h1>
+            </p>
+            <p>
+                <a class="bottom-link" href="some link">Link1</a>
+                <a class="bottom-link" href="some link">Link2</a>
+                <a class="bottom-link" href="some link">Link3</a>
+            </p>
+        </div>
     </body>
 </html>

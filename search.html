@@ -6,34 +6,42 @@
             #center{
                 text-align: center;
             }
-            #nav,a{
+            #nav,.nav{
                 text-align: right;
                 color: black;
                 font-size: large;
                 text-decoration: none;
-                padding: 2px;
-                margin: 10px;
+                padding-bottom: 2px;
+                margin-right: 10px;
+                margin-top: 10px;
+                vertical-align: middle;
             }
         </style>
     </head>
     <body>
         <div id="nav">
             <p>
-                <a href="https://mail.google.com/mail">Gmail</a>
-                <a href="https://www.google.com.pk/imghp?hl=en&authuser=0&ogbl">Images</a>
+                <a class="nav" href="https://mail.google.com/mail">Gmail</a>
+                <a class="nav" href="https://www.google.com.pk/imghp?hl=en&authuser=0&ogbl">Images</a>
+                <a class="nav" href="some link" > <img src="image.jpg" alt="profile picture" style="border-radius: 50%; height: 40px; width: 40px;"></a>
             </p>
             
         </div>
         <div id="center">
             <p>
-                <img src="C:\Users\Junaid Ahmed\Desktop\google.png" alt="google image" height="130px" width="auto">
+                <img src="C:\Users\Junaid Ahmed\Desktop\google.png" alt="google image" style="height: 110px; width: auto; margin-top: 80px;">
             </p>
             <p>
-                <input name="search" type="text" style="height: 30px; width: 40%; " >
+                <input name="search" type="text" style="height: 40px; width: 40%; padding: 10px; outline: 0; border-radius: 50px; border-color: #eeee;" >
             </p>
             <p>
-                <input type="button" name="googlesearch" value="Google Search" style=" height: 30px;">
-                <input type="button" value="Feeling lucky?" style="height: 30px;">
+                <input type="button" name="googlesearch" value="Google Search" style=" height: 30px; border-radius: 10px; margin: 10px; cursor: pointer;">
+                <input type="button" value="Feeling lucky?" style="height: 30px; border-radius: 10px; margin: 10px; cursor: pointer;">
+            </p>
+            <p >
+                Google offered in:
+                <a style="margin-right: 10px;" href="some link">Urdu</a>
+                <a style="margin-right: 10px;" href="some link">German</a>
             </p>
         </div>
         
